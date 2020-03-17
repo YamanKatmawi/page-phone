@@ -22,7 +22,20 @@
   align-items: center;
   color: white;
 }
-@media only screen and (max-width: 1200px) {
+.text{
+  color: white;
+  font-size: x-large;
+  position: relative;
+}
+.text1{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: medium;
+  position: center;
+}
+
+@media only screen and (max-width: 1800px) {
   .Header {
     color: gray;
   }
