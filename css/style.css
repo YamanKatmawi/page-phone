@@ -22,10 +22,19 @@
   align-items: center;
   color: white;
 }
+.center-container{
+  border: 30px;
+  width: 30vw;
+  height: 50vh;
+  justify-content: space-around;
+  position:relative;
+
+}
 .text{
   color: white;
   font-size: x-large;
   position: relative;
+  
 }
 .text1{
   display: flex;
@@ -33,7 +42,14 @@
   color: white;
   font-size: medium;
   position: center;
+  
 }
+.left-containe{
+  border: 50px;
+  width: 50vw;
+  height: 75vh;
+}
+
 
 @media only screen and (max-width: 1800px) {
   .Header {
