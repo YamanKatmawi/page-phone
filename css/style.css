@@ -22,36 +22,72 @@
   align-items: center;
   color: white;
 }
-.center-container{
+.center-container {
   border: 30px;
   width: 30vw;
   height: 50vh;
   justify-content: space-around;
-  position:relative;
-
+  position: relative;
 }
-.text{
+.text {
   color: white;
   font-size: x-large;
   position: relative;
-  
 }
-.text1{
+.text1 {
   display: flex;
   justify-content: space-evenly;
   color: white;
   font-size: medium;
   position: center;
-  
-}
-.left-containe{
-  border: 50px;
-  width: 50vw;
-  height: 75vh;
 }
 
+.boxRight {
+  background-color: blue;
+  border: rgb(0, 187, 87);
+  margin: 1rem;
+  display: inline-flex;
+  /* position: relative; */
+}
 
-@media only screen and (max-width: 1800px) {
+.phone1,
+.phone2 {
+  width: 10rem;
+}
+
+.phone1 {
+  position: absolute;
+  right: -1rem;
+  top: 0rem;
+}
+
+.phone2 {
+  position: relative;
+  top: 0.5rem;
+}
+
+.buttons {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.button1,
+.button2 {
+  width: 7rem;
+  height: 1.8rem;
+  border: transparent;
+  color: white;
+}
+
+.button1 {
+  background-color: rgb(0, 187, 87);
+}
+
+.button2 {
+  background-color: rgb(98, 98, 250);
+}
+
+/* @media only screen and (max-width: 1800px) {
   .Header {
     color: gray;
-  }
+  } */
