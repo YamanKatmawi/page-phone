@@ -58,12 +58,13 @@
 .phone1 {
   position: absolute;
   right: -1rem;
-  top: 0rem;
+  top: 5rem;
 }
 
 .phone2 {
   position: relative;
   top: 0.5rem;
+  right: 5rem;
 }
 
 .buttons {
